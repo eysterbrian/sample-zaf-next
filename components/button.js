@@ -4,19 +4,21 @@ import { useZafClient } from '../utils/zafClient';
 import settings from '../pages/api/settings';
 
 export default function Button() {
-    // invoke client
-    const client = useZafClient()
+  // invoke client
+  const client = useZafClient();
 
-    const getTickets = () => {
-        client.request(settings).then(function (data) {
-            console.log("ALL TICKETS: ", data)
-        })
-    }
+  const getTickets = () => {
+    client.request(settings).then(function (data) {
+      console.log('ALL TICKETS: ', data);
+    });
+  };
 
-    return (
-        <div>
-            <h2>Hello!</h2>
-            <button type="submit" onClick={getTickets}>Click me!</button>
-        </div>
-    )
+  return (
+    <div>
+      <h2>Print tickets to console</h2>
+      <button type="submit" onClick={getTickets}>
+        Get Tickets
+      </button>
+    </div>
+  );
 }

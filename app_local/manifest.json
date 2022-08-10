@@ -1,15 +1,18 @@
 {
   "name": "sample-zaf-next",
   "author": {
-    "name": "Erica Girges",
-    "email": "erica.girges@zendesk.com",
-    "url": ""
+    "name": "Brian Eyster",
+    "email": "brian.eyster@ef.com",
+    "url": "https://goaheadtours.com"
   },
   "defaultLocale": "en",
   "private": true,
   "location": {
     "support": {
-      "top_bar": "http://localhost:3000"
+      "ticket_sidebar": {
+        "url": "http://localhost:3000/sidebar",
+        "flexible": true
+      }
     }
   },
   "version": "1.0",
