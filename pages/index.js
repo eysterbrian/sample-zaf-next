@@ -1,8 +1,12 @@
 import Head from 'next/head';
 import styles from '../styles/Home.module.css';
 import Button from '../components/button';
+import { useZafClient } from '../utils/zafClient';
 
-export default function Home() {
+export default function TopBarApp() {
+  const zafClient = useZafClient();
+  zafClient?.invoke('resize', { height: '500px' });
+
   return (
     <div className={styles.container}>
       <Head>
