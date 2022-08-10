@@ -32,7 +32,7 @@ yarn dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-Current location of this app is in the _Top Bar_. This can be changed in the manifest file.
+Current location of this app is in both the _Ticket Sidebar_ (`sidebar.js`) and _Top Bar_ (`index.js`). This can be changed in the manifest file.
 
 You can start editing the page by modifying `pages/index.js`. You will need to import useZAFClient into any pages/components where requests/actions to the client will be made. The page auto-updates as you edit the file.
 

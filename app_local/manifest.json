@@ -12,6 +12,9 @@
       "ticket_sidebar": {
         "url": "http://localhost:3000/sidebar",
         "flexible": true
+      },
+      "top_bar": {
+        "url": "http://localhost:3000/"
       }
     }
   },

@@ -7,9 +7,13 @@ export default function Home() {
     <div className={styles.container}>
       <Head>
         <title>Get Started: Zendesk App Framework with Next.js</title>
-        <meta name="ZAF and Next Scaffold" content="Zendesk app utilizing the Next framework" />
+        <meta
+          name="ZAF and Next Scaffold"
+          content="Zendesk app utilizing the Next framework"
+        />
       </Head>
+      <p>This is the top bar</p>
       <Button />
     </div>
-  )
+  );
 }

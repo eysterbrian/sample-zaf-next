@@ -12,6 +12,7 @@ export default function Home() {
           content="Zendesk app utilizing the Next framework"
         />
       </Head>
+      <p>This is the sidebar</p>
       <Button />
     </div>
   );
