@@ -10,11 +10,11 @@
   "location": {
     "support": {
       "ticket_sidebar": {
-        "url": "http://localhost:3000/sidebar",
+        "url": "https://sample-zaf-next.vercel.app/sidebar",
         "flexible": true
       },
       "top_bar": {
-        "url": "http://localhost:3000/"
+        "url": "https://sample-zaf-next.vercel.app/"
       }
     }
   },

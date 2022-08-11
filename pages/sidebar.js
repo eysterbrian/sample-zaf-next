@@ -16,7 +16,7 @@ export default function SideBarApp() {
           content="Zendesk app utilizing the Next framework"
         />
       </Head>
-      <p>This is the sidebar</p>
+      <p>Vercel Deployment: Sidebar</p>
       <Button />
     </div>
   );

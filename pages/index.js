@@ -16,7 +16,7 @@ export default function TopBarApp() {
           content="Zendesk app utilizing the Next framework"
         />
       </Head>
-      <p>This is the top bar</p>
+      <p>Vercel Deployment: Top bar</p>
       <Button />
     </div>
   );
